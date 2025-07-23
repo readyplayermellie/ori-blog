@@ -1,1 +1,0 @@
-{"version":4,"routes":{"/posts/weekendje-zeilen-in-juli":{}},"dynamicRoutes":{"/posts/[slug]":{"fallback":null}},"notFoundRoutes":[],"preview":{"previewModeId":"93b3449bb256e2f4cd5db3fa8df89016","previewModeSigningKey":"0c6a05df848500613a42895403a090bf7dea6d3f9eccbfa18bfbd550e678dced","previewModeEncryptionKey":"60503443f2d449bcd7e7444d443dc11301147e970ef65a71323e981a93e27d2e"}}

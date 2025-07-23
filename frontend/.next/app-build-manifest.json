@@ -1,40 +1,35 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/node_modules_next_dist_01fcdebf._.js",
-      "static/chunks/src_app_favicon_ico_mjs_f9cadd25._.js",
-      "static/chunks/src_app_globals_b805903d.css",
-      "static/chunks/src_app_layout_tsx_68b267f5._.js",
-      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_60426e20.js",
-      "static/chunks/node_modules_next_dist_cc06ae20._.js",
-      "static/chunks/src_app_page_tsx_60426e20._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",
-      "static/chunks/node_modules_next_dist_compiled_0f1b9fd4._.js",
-      "static/chunks/node_modules_next_dist_client_20b209c9._.js",
-      "static/chunks/node_modules_next_dist_445d8acf._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_8e433861._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_01f48b92._.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-edb4cb7b4c6b9a65.js",
+      "static/chunks/4bd1b696-2385f465b218746f.js",
+      "static/chunks/964-95bcce2e45030b50.js",
+      "static/chunks/main-app-7274b89e4309d142.js",
+      "static/chunks/app/_not-found/page-5da2f9625d986651.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-edb4cb7b4c6b9a65.js",
+      "static/chunks/4bd1b696-2385f465b218746f.js",
+      "static/chunks/964-95bcce2e45030b50.js",
+      "static/chunks/main-app-7274b89e4309d142.js",
+      "static/css/e3569b18a002f6a3.css",
+      "static/chunks/app/layout-33e19ff0bdd8db54.js"
     ],
     "/posts/[slug]/page": [
-      "static/chunks/node_modules_next_dist_01fcdebf._.js",
-      "static/chunks/src_app_favicon_ico_mjs_f9cadd25._.js",
-      "static/chunks/src_app_globals_b805903d.css",
-      "static/chunks/src_app_layout_tsx_68b267f5._.js",
-      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_60426e20.js",
-      "static/chunks/node_modules_next_dist_ea69acce._.js",
-      "static/chunks/src_app_posts_[slug]_page_tsx_60426e20._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",
-      "static/chunks/node_modules_next_dist_compiled_0f1b9fd4._.js",
-      "static/chunks/node_modules_next_dist_client_20b209c9._.js",
-      "static/chunks/node_modules_next_dist_445d8acf._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_8e433861._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_01f48b92._.js"
+      "static/chunks/webpack-edb4cb7b4c6b9a65.js",
+      "static/chunks/4bd1b696-2385f465b218746f.js",
+      "static/chunks/964-95bcce2e45030b50.js",
+      "static/chunks/main-app-7274b89e4309d142.js",
+      "static/chunks/795-d895b8303933e8ad.js",
+      "static/chunks/app/posts/[slug]/page-36991191d8769067.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-edb4cb7b4c6b9a65.js",
+      "static/chunks/4bd1b696-2385f465b218746f.js",
+      "static/chunks/964-95bcce2e45030b50.js",
+      "static/chunks/main-app-7274b89e4309d142.js",
+      "static/chunks/795-d895b8303933e8ad.js",
+      "static/chunks/app/page-36991191d8769067.js"
     ]
   }
 }

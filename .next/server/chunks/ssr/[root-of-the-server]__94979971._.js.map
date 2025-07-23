@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/gast/Workspace/ori-blog/src/app/page.tsx"],"sourcesContent":["import Link from 'next/link';\n\nexport default function Home() {\n  return (\n    <div className=\"text-center mt-64\">\n      <Link href=\"/\">Home</Link>\n      <Link href=\"/articles\">My Articles</Link>\n      <div>\n        <h1 className=\"text-6xl\">Ori (nog niet) onderweg</h1>\n        <h2 className=\"text-2xl italic\">Voor de dromers en de doeners</h2>\n      </div>\n      <div className=\"mt-32\">\n        <h3>Huidige positie:</h3>\n        <p>52°20&apos;24.349&quot; | 5°7&apos;57.537&quot;</p>\n        <p>Almere, Nederland</p>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BAAI;;;;;;0BACf,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BAAY;;;;;;0BACvB,8OAAC;;kCACC,8OAAC;wBAAG,WAAU;kCAAW;;;;;;kCACzB,8OAAC;wBAAG,WAAU;kCAAkB;;;;;;;;;;;;0BAElC,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;kCACH,8OAAC;kCAAE;;;;;;;;;;;;;;;;;;AAIX","debugId":null}}]
-}

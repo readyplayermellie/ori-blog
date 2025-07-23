@@ -1,1 +1,65 @@
-{"version":4,"routes":{"/posts/weekendje-zeilen-in-juli":{}},"dynamicRoutes":{"/posts/[slug]":{"fallback":null}},"notFoundRoutes":[],"preview":{"previewModeId":"bee4358b066829655f6166ea152849a8","previewModeSigningKey":"c5656fc8f865184f0b029571b571ca54bc6125bb0d9dc5c131d8ba91bf311543","previewModeEncryptionKey":"bfe2186da60823370eba1c662e5c39f4455d7b540e92bae7646708512b452ecd"}}
+{
+  "version": 4,
+  "routes": {
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "18c57b42c667c628e0389f28d6bd7142",
+    "previewModeSigningKey": "f6f920f27f760d299283199d62014137c31c98a1e13823980b0ba9314b3164fa",
+    "previewModeEncryptionKey": "6cfcea46e1db539a760d0e00f644b2147794562445935604efe8781a4a2889c7"
+  }
+}

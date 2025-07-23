@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { client } from '../lib/sanity.client'; // Adjust path based on your lib location
 import { postsQuery } from '../lib/sanity.queries'; // Adjust path
 import { urlFor } from '../lib/sanity.image'; // Adjust path
+import { Post } from '../lib/types';
 
 // In App Router, data fetching can be done directly in the component (Server Component by default)
 export default async function HomePage() {
@@ -26,7 +27,7 @@ export default async function HomePage() {
 
       {posts.length > 0 ? (
         <div>
-          {posts.map((post) => (
+          {posts.map((post: Post) => (
             <div key={post._id} style={{ marginBottom: '40px', borderBottom: '1px solid #eee', paddingBottom: '20px' }}>
               {post.mainImage && (
                 <Image
@@ -42,9 +43,6 @@ export default async function HomePage() {
                   {post.title}
                 </Link>
               </h2>
-              <p style={{ fontSize: '0.9em', color: '#666' }}>
-                By {post.authorName} on {new Date(post.publishedAt).toLocaleDateString()}
-              </p>
               <p>{post.excerpt}</p>
             </div>
           ))}
