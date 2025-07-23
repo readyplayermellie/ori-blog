@@ -1,0 +1,11 @@
+# .env files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Sanity Studio specific
+.sanity
+.vscode # if you have VS Code settings in studio
+node_modules
+dist
